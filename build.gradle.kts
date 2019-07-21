@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    compile("info.picocli:picocli:4.0.0")
 }
 
 tasks.withType<KotlinCompile> {
